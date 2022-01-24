@@ -1,3 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply ml-[160px] text-xl hover:text-blue-300;
+  };
+  .linku {
+    @apply ml-[270px] text-xl hover:text-blue-300;
+  };
+  .category-link {
+    @apply ml-16 hover:text-blue-500 decoration-blue-400 ease-in-out duration-1000 decoration-2
+  };
+  .post-link {
+    @apply hover:text-blue-500 decoration-blue-400 ease-in-out duration-1000
+  };
+  .light {
+    @apply text-sm ml-3 font-light
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
